@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Responsive</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><span>W</span>EB<span>D</span>EV</div>
+    <nav>
+      <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+      <div class="container">
+        <!--1ere etape on cree une div  qui prendra id et une class qui va contenir tout la croix de fermeture et tous les liens-->
+        <div id="myNav" class="overlay">
+          <div class="logo"><em>W</em>EB<em>D</em>EV</div>
+          <div class="content">
+            <div id="closebtn"></div>
+          </div>
+          <div class="overlay__content">
+              <a href="#">HTML</a>
+              <a href="#">CSS</a>
+              <a href="#">JavaScript</a>
+          </div>
+        </div>
+        <!-- 2e etape on cree notre bouton d'ouverture -->
+        <span id="openNav">
+          <div class="btn"></div>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  
+  
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
